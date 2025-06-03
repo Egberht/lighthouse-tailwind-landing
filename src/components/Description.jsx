@@ -1,7 +1,7 @@
 // src/components/Description.jsx
 const Description = () => {
   return (
-    <section className="bg-customGray-900 text-customGray-100 py-20 px-6">
+    <section id="description" className="scroll-mt-14 bg-customGray-900 text-customGray-100 py-20 px-6">
       <div className="max-w-screen-xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-12">Что это за работа?</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

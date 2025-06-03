@@ -16,7 +16,7 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <section id="testimonials" className="bg-customGray-900 text-white py-20 px-6">
+    <section id="testimonials" className="scroll-mt-14 bg-customGray-900 text-white py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-playfair mb-12">Истории Смотрителей</h2>
         <div className="space-y-10">

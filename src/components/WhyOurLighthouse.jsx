@@ -24,7 +24,7 @@ const features = [
 
 const WhyOurLighthouse = () => {
   return (
-    <section className="bg-customGray-900 text-white py-20 px-6" id="why">
+    <section className="scroll-mt-14 bg-customGray-900 text-white py-20 px-6" id="why">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-playfair font-bold mb-12 tracking-wide">
           Почему именно наш маяк?
