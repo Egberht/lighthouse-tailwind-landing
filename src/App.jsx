@@ -1,4 +1,4 @@
-import Hero from "./components/Hero"; // Пример импорта других компонентов
+import Hero from "./components/Hero";
 import Description from "./components/Description";
 import WhyOurLighthouse from "./components/WhyOurLighthouse";
 import "./index.css";
