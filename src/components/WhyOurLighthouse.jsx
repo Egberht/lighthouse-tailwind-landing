@@ -1,4 +1,3 @@
-// src/components/WhyOurLighthouse.jsx
 const features = [
   {
     title: 'Возможность следить за светом.',

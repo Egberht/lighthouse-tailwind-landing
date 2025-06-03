@@ -1,4 +1,3 @@
-// src/components/Testimonials.jsx
 const testimonials = [
   {
     quote: "Иногда свет ведёт не к спасению, а к безумию...",

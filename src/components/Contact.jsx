@@ -1,7 +1,9 @@
-// src/components/Contact.jsx
 const Contact = () => {
   return (
-    <section id="contact" className="bg-customGray-950 text-customGray-100 py-20 px-6">
+    <section
+      id="contact"
+      className="bg-customGray-950 text-customGray-100 py-20 px-6"
+    >
       <div className="max-w-md mx-auto text-center">
         <h2 className="text-3xl font-playfair mb-6">Свяжись с нами</h2>
         <form className="space-y-6">

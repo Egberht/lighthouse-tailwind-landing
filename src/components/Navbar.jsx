@@ -3,7 +3,6 @@ import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
@@ -11,7 +10,6 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
         <h1 className="text-xl font-playfair tracking-wide">Маяк</h1>
 
-        {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-sm md:text-base">
           <li><a href="#hero" className="hover:text-gray-300 transition">Главная</a></li>
           <li><a href="#description" className="hover:text-gray-300 transition">Работа</a></li>
@@ -20,7 +18,6 @@ const Navbar = () => {
           <li><a href="#contact" className="hover:text-gray-300 transition">Контакты</a></li>
         </ul>
 
-        {/* Mobile Menu Button */}
         <button
           className="md:hidden focus:outline-none"
           onClick={toggleMenu}
@@ -30,7 +27,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Dropdown */}
       <div
         className={`md:hidden overflow-hidden transform transition-all duration-500 ease-in-out bg-black/80 backdrop-blur-md px-6 ${
           isOpen ? 'max-h-96 opacity-100 scale-y-100 py-4' : 'max-h-0 opacity-0 scale-y-95 py-0'
